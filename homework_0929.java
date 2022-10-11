@@ -8,7 +8,7 @@ import java.util.*;
 
 class ticketClass implements Runnable{
 
-    static int ticket = 100;
+    static int ticket = 10000;
     Random random = new Random();
     int tHSR = 1 + random.nextInt(4);
     Thread t;
